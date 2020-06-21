@@ -10,6 +10,7 @@ namespace Business_Layer
 {
     public class NegCliente
     {
+        // Business Layer
         public string Actualizar(ClienteBO dto) {
             daoCliente dao = new daoCliente();
             return dao.Actualizar(dto);
